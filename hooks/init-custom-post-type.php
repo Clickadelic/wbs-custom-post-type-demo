@@ -5,14 +5,16 @@ function wbs_register_custom_post_type_receipe(){
 
     // Custom Post Type Name (always singular!)
     $cpt_name = 'receipe';
+
     // CPT Features
-    // the fields you need
+    // >>>> the fields you can use from WordPress core
     $cpt_features = array(
         'title',
-        'excerpt',
-        'revisions',
-        'thumbnail'
+        // 'excerpt',
+        // 'revisions',
+        // 'thumbnail'
     );
+
     // Slug / name of the archive /products (always plural)
     $cpt_slug = 'receipes';
 
@@ -38,7 +40,7 @@ function wbs_register_custom_post_type_receipe(){
 
     /* ------------------------------------------ End of Edit */
     $args = array(
-        'labels'				=>	$labels,
+		'labels'				=>	$labels,
         'public'				=>	true,
         'publicly_queryable'	=>	true,
         'exclude_from_search'	=>	false,
@@ -52,6 +54,7 @@ function wbs_register_custom_post_type_receipe(){
         'can_export'			=>	true,
         'delete_with_user'		=>	false,
         'hierarchical'			=>	false,
+		'rest_base'				=>  'receipes',
         'has_archive'			=>	true,
         'query_var'				=>	true,
         'capability_type'		=>	'post',

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WBS Custom Post Type Demo\n"
-"POT-Creation-Date: 2022-12-08 01:17+0100\n"
-"PO-Revision-Date: 2022-12-08 01:28+0100\n"
+"POT-Creation-Date: 2022-12-08 01:51+0100\n"
+"PO-Revision-Date: 2022-12-08 01:51+0100\n"
 "Last-Translator: Tobias Hopp <translations@tobias-hopp.de>\n"
 "Language-Team: Tobias Hopp <translations@tobias-hopp.de>\n"
 "Language: de_DE\n"
@@ -20,6 +20,10 @@ msgstr ""
 "_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: hooks/enter-title-here.php:8
+msgid "How is the dish called?"
+msgstr "Wie heißt das Gericht?"
 
 #: hooks/init-custom-post-type.php:20 hooks/init-custom-post-type.php:21
 msgid "Receipe"
@@ -185,6 +189,10 @@ msgstr "Aktuelle Rezepttags"
 #: hooks/wp-dashboard-setup.php:44
 msgid "Latest receipes"
 msgstr "Kürzliche Rezepttags"
+
+#: wbs-custom-post-type-demo.php:55
+msgid "Ingredients"
+msgstr "Zutaten"
 
 #. Plugin Name of the plugin/theme
 msgid "WBS Custom Post Type Demo"

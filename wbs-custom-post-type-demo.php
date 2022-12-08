@@ -16,7 +16,7 @@ if(!defined('ABSPATH')) {
 	exit('NaNa nAnA NaNa nAnA NaNa nAnA Batman!');
 }
 
-
+// Load the plugin textdomain "wbs-custom-post-type-demo"
 function wbs_custom_post_type_demo_textdomain() {
 	load_plugin_textdomain(
 		'wbs-custom-post-type-demo',
@@ -28,11 +28,20 @@ add_action('init', 'wbs_custom_post_type_demo_textdomain');
 // Custom Post Type "receipe"
 require 'hooks/init-custom-post-type.php';
 
+// Change "Enter title here" text
+// require 'hooks/enter-title-here.php';
+
 // Receipe Categories
-require 'hooks/init-receipe-categories.php';
+// require 'hooks/init-receipe-categories.php';
 
 // Receipe Tags
-require 'hooks/init-receipe-tags.php';
+// require 'hooks/init-receipe-tags.php';
 
 // Include a dashboard widget
 // require 'hooks/wp-dashboard-setup.php';
+
+// Include stylesheet in the admin screen
+// require 'hooks/admin-enqueue-scripts.php';
+
+// Include some meta fields
+// require 'hooks/add-meta-boxes.php';

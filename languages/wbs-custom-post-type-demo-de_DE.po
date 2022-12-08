@@ -1,0 +1,211 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WBS Custom Post Type Demo\n"
+"POT-Creation-Date: 2022-12-08 01:17+0100\n"
+"PO-Revision-Date: 2022-12-08 01:28+0100\n"
+"Last-Translator: Tobias Hopp <translations@tobias-hopp.de>\n"
+"Language-Team: Tobias Hopp <translations@tobias-hopp.de>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wbs-custom-post-type-demo.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: hooks/init-custom-post-type.php:20 hooks/init-custom-post-type.php:21
+msgid "Receipe"
+msgstr "Rezepte"
+
+#: hooks/init-custom-post-type.php:22 hooks/init-custom-post-type.php:23
+#: hooks/init-custom-post-type.php:25
+msgid "Receipes"
+msgstr "Rezepte"
+
+#: hooks/init-custom-post-type.php:26 hooks/init-custom-post-type.php:27
+msgid "Add new receipes"
+msgstr "Neues Rezept hinzufügen"
+
+#: hooks/init-custom-post-type.php:28 hooks/init-custom-post-type.php:29
+msgid "Edit receipes"
+msgstr "Rezept bearbeiten"
+
+#: hooks/init-custom-post-type.php:30
+msgid "New receipes"
+msgstr "Neues Rezept"
+
+#: hooks/init-custom-post-type.php:31
+msgid "View receipes"
+msgstr "Rezepte ansehen"
+
+#: hooks/init-custom-post-type.php:32
+msgid "View receipe"
+msgstr "Rezept ansehen"
+
+#: hooks/init-custom-post-type.php:33
+msgid "Search receipes"
+msgstr "Rezepte durchsuchen"
+
+#: hooks/init-custom-post-type.php:34
+msgid "Parent receipe"
+msgstr "Übergeordnetes Rezept"
+
+#: hooks/init-custom-post-type.php:35
+msgid "No receipe found"
+msgstr "Kein Rezept gefunden"
+
+#: hooks/init-custom-post-type.php:36
+msgid "No receipe found in trash"
+msgstr "Kein Rezept im Papierkorb gefunden"
+
+#: hooks/init-receipe-categories.php:12 hooks/init-receipe-categories.php:13
+msgid "Receipe category"
+msgstr "Rezeptkategorie"
+
+#: hooks/init-receipe-categories.php:14
+msgid "Search receipe categories"
+msgstr "Rezeptkategorien durchsuchen"
+
+#: hooks/init-receipe-categories.php:15
+msgid "Popular receipe categories"
+msgstr "Beliebte Rezeptkategorien"
+
+#: hooks/init-receipe-categories.php:16
+msgid "All receipe categories"
+msgstr "Alle Rezeptkategorien"
+
+#: hooks/init-receipe-categories.php:19
+msgid "Edit receipe category"
+msgstr "Rezeptkategorie bearbeiten"
+
+#: hooks/init-receipe-categories.php:20
+msgid "Update receipe category"
+msgstr "Rezeptkategorie aktualisieren"
+
+#: hooks/init-receipe-categories.php:21
+msgid "Add new receipe category"
+msgstr "Neue Rezeptkategorie hinzufügen"
+
+#: hooks/init-receipe-categories.php:22
+msgid "New receipe category"
+msgstr "Neue Rezeptkategorie"
+
+#: hooks/init-receipe-categories.php:23
+msgid "Separate receipe categories"
+msgstr "Rezeptkategorien trennen"
+
+#: hooks/init-receipe-categories.php:24
+msgid "Add or remove receipe category"
+msgstr "Rezeptkategorien hinzufügen oder entfernen"
+
+#: hooks/init-receipe-categories.php:25
+msgid "Choose from most used receipe categories"
+msgstr "Wähle aus den meist verwendeten Rezeptkategorien"
+
+#: hooks/init-receipe-categories.php:26
+msgid "No receipe categories found"
+msgstr "Keine Rezeptkategorien gefunden"
+
+#: hooks/init-receipe-categories.php:27
+msgid "No receipe categories found in trash"
+msgstr "Keine Rezeptkategorien im Papierkorb gefunden"
+
+#: hooks/init-receipe-categories.php:28
+msgid "Receipe categories"
+msgstr "Rezeptkategorien"
+
+#: hooks/init-receipe-tags.php:14 hooks/init-receipe-tags.php:30
+msgid "Receipe tags"
+msgstr "Rezepttags"
+
+#: hooks/init-receipe-tags.php:15
+msgid "Receipe tag"
+msgstr "Rezepttag"
+
+#: hooks/init-receipe-tags.php:16
+msgid "Search receipe tags"
+msgstr "Rezepttags durchsuchen"
+
+#: hooks/init-receipe-tags.php:17
+msgid "Popular receipe tags"
+msgstr "Beliebte Rezepttags"
+
+#: hooks/init-receipe-tags.php:18
+msgid "All receipe tags"
+msgstr "Alle Rezepttags"
+
+#: hooks/init-receipe-tags.php:21
+msgid "Edit receipe tag"
+msgstr "Rezepttags bearbeiten"
+
+#: hooks/init-receipe-tags.php:22
+msgid "Update receipe tag"
+msgstr "Rezepttags aktualisieren"
+
+#: hooks/init-receipe-tags.php:23
+msgid "Add new receipe tag"
+msgstr "Neuen Rezepttag hinzufügen"
+
+#: hooks/init-receipe-tags.php:24
+msgid "New receipe tag"
+msgstr "Neuer Rezepttag"
+
+#: hooks/init-receipe-tags.php:25
+msgid "Separate receipe tag"
+msgstr "Rezepttags trennen"
+
+#: hooks/init-receipe-tags.php:26
+msgid "Add or remove receipe tags"
+msgstr "Rezepttags hinzufügen oder entfernen"
+
+#: hooks/init-receipe-tags.php:27
+msgid "Choose from most used receipe tags"
+msgstr "Wähle aus den meist verwendeten Rezepttags"
+
+#: hooks/init-receipe-tags.php:28
+msgid "No receipe tags found"
+msgstr "Kein Rezepttags gefunden"
+
+#: hooks/init-receipe-tags.php:29
+msgid "No receipe tags found in trash"
+msgstr "Keine Rezepttags im Papierkorb gefunden"
+
+#: hooks/wp-dashboard-setup.php:10
+msgid "Current receipes"
+msgstr "Aktuelle Rezepttags"
+
+#: hooks/wp-dashboard-setup.php:44
+msgid "Latest receipes"
+msgstr "Kürzliche Rezepttags"
+
+#. Plugin Name of the plugin/theme
+msgid "WBS Custom Post Type Demo"
+msgstr "WBS Custom Post Type Demo"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.tobias-hopp.de/de/wordpress/plugins/"
+msgstr "https://www.tobias-hopp.de/de/wordpress/plugins/"
+
+#. Description of the plugin/theme
+msgid ""
+"A plugin to show so called \"Custom Post Types\". In this case as a demo: "
+"receipes."
+msgstr ""
+"Ein WordPress-Plugin zur Demonstration von Custom Post Types. Hier als "
+"Beispiel \"Rezepte\"."
+
+#. Author of the plugin/theme
+msgid "Tobias Hopp"
+msgstr "Tobias Hopp"
+
+#. Author URI of the plugin/theme
+msgid "https://www.tobias-hopp.de"
+msgstr "https://www.tobias-hopp.de"
